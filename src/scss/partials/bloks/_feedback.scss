@@ -1,69 +1,49 @@
 .feedback{
-	display: inline-block;
 	width: 100%;
-	max-width: 49%;
 	padding: 30px;
-	background: #ed6d1a;
-	background: -moz-linear-gradient(left, #ed6d1a 0%, #f49c19 100%);
-	background: -webkit-linear-gradient(left, #ed6d1a 0%,#f49c19 100%);
-	background: linear-gradient(to right, #ed6d1a 0%,#f49c19 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed6d1a', endColorstr='#f49c19',GradientType=1 );
-	&.color{
-		background: #1580c2;
-		background: -moz-linear-gradient(left, #1580c2 0%, #35b2ff 100%);
-		background: -webkit-linear-gradient(left, #1580c2 0%,#35b2ff 100%);
-		background: linear-gradient(to right, #1580c2 0%,#35b2ff 100%);
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1580c2', endColorstr='#35b2ff',GradientType=1 );
-	}
 	&__header{
-		color: #fff;
-		text-align: center;
+		color: #232323;
 		margin: 0 0 20px;
-		text-transform: uppercase;
 	}
 	&__item{
-		margin-bottom: 20px;
+		margin-bottom: 15px;
 	}
 	&__label{
 		display: block;
 		margin-bottom: 5px;
-		color: #fff;
+		color: #232323;
+		font-weight: bold;
 	}
 	&__input{
 		width: 100%;
-		height: 40px;
-		padding: 0 15px;
+		height: 52px;
+		padding: 0 20px;
 		border-radius: 5px;
-		border: 1px solid #fff;
-		color: #35b2ff;
+		border: 1px solid #cccccc;
+		color: #cccccc;
+	}
+	&__textarea{
+		width: 100%;
+		height: 130px;
+		padding: 20px;
+		border-radius: 5px;
+		border: 1px solid #cccccc;
+		color: #cccccc;
 	}
 	&__btn{
 		display: block;
-		background: #ed6d1a;
-		background: -moz-linear-gradient(left, #ed6d1a 0%, #f49c19 100%);
-		background: -webkit-linear-gradient(left, #ed6d1a 0%,#f49c19 100%);
-		background: linear-gradient(to right, #ed6d1a 0%,#f49c19 100%);
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed6d1a', endColorstr='#f49c19',GradientType=1 );
-		width: 100%;
-		height: 50px;
+		background-color: #b32954;
+		width: 130px;
+		height: 46px;
+		margin-right: 0;
+		margin-left: auto;
 		color: #fff;
-		font-size: 16px;
-		line-height: 50px;
+		font-size: 14px;
 		font-weight: 500;
-		text-transform: uppercase;
 		text-decoration: none;
 		text-align: center;
-		border: 1px solid #fff;
-		border-radius: 5px;
-		&.color{
-			background: #1580c2;
-			background: -moz-linear-gradient(left, #1580c2 0%, #35b2ff 100%);
-			background: -webkit-linear-gradient(left, #1580c2 0%,#35b2ff 100%);
-			background: linear-gradient(to right, #1580c2 0%,#35b2ff 100%);
-			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1580c2', endColorstr='#35b2ff',GradientType=1 );
-		}
-	}
-	@include r(375){
-		max-width: 100%;
+		border-radius: 2px;
+		border: none;
+		box-shadow: 0 0 10px 0 rgba(#b32954,.6);
 	}
 }
