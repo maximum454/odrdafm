@@ -1,0 +1,15 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.1 5.11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 0.99px;
+      }
+    </style>
+  </defs>
+  <title>arrow tongue</title>
+  <polyline class="cls-1" points="0.5 0.64 4.48 4.62 8.6 0.5"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.32 19.1">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2.13px;
+      }
+    </style>
+  </defs>
+  <title>pause</title>
+  <path class="cls-1" d="M297.46,388.06h5.31a0.39,0.39,0,0,1,.39.39v16.19a0.39,0.39,0,0,1-.39.39h-5.31a0.39,0.39,0,0,1-.39-0.39V388.46a0.39,0.39,0,0,1,.39-0.39h0Zm11.1,0h5.31a0.39,0.39,0,0,1,.39.39v16.19a0.39,0.39,0,0,1-.39.39h-5.31a0.39,0.39,0,0,1-.39-0.39V388.46a0.39,0.39,0,0,1,.39-0.39h0Z" transform="translate(-296 -387)"/>
+</svg>
