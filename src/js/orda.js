@@ -1,10 +1,13 @@
 //= partials/jquery.min.js
+//= partials/jquery.knob.min.js
 $(function () {
     /*link*/
     $("a[href='#']").click(function () {
         return false;
     });
     menu();
+
+    $(".dial").knob();
 });
 
 function menu() {

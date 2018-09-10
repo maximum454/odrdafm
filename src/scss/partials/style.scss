@@ -5,10 +5,12 @@
 @import "base/class";
 
 /*blocks vendors*/
+@import "vendors/round";
 
 /*blocks orda*/
 @import "bloks/menu";
 @import "bloks/header";
 @import "bloks/main";
+@import "bloks/general";
 @import "bloks/footer";
 @import "bloks/feedback";

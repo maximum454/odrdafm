@@ -1,0 +1,101 @@
+.general{
+	width: 100%;
+	height: calc(100vh - 67px);
+
+	background: #6b1a3e;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	background: -moz-linear-gradient(top, #6b1a3e 0%, #ad2f33 100%);
+	background: -webkit-linear-gradient(top, #6b1a3e 0%,#ad2f33 100%);
+	background: linear-gradient(to bottom, #6b1a3e 0%,#ad2f33 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b1a3e', endColorstr='#ad2f33',GradientType=0 );
+	&__header{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		flex-shrink: 0;
+		padding: 15px;
+		margin-bottom: 15px;
+	}
+	&__btn{
+		display: block;
+		width: 100%;
+		height: 50px;
+		margin-right: 6px;
+		border: none;
+		border-radius: 2px;
+		outline: none;
+		color: #66183e;
+		font-size: 14px;
+		font-weight: bold;
+		text-decoration: none;
+		text-align: left;
+		position: relative;
+		&:last-of-type{
+			margin-right: 0;
+		}
+		&.air{
+			padding-left: 40px;
+			&:before{
+				content: '';
+				position: absolute;
+				top: 50%;
+				left: 14px;
+				transform: translate(0, -50%);
+				background-image: url("../img/toRingTheAir.svg");
+				background-size: 100%;
+				width: 16px;
+				height: 25px;
+			}
+		}
+		&.confetti{
+			padding-left: 45px;
+			&:before{
+				content: '';
+				position: absolute;
+				top: 50%;
+				left: 14px;
+				transform: translate(0, -50%);
+				background-image: url("../img/sendCongratulations.svg");
+				background-size: 100%;
+				width: 23px;
+				height: 23px;
+			}
+		}
+	}
+	&__main{
+		width: 100%;
+		height: 100%;
+		margin: 40px auto;
+		background-image: url("../img/volume-bg.png");
+		background-position: center;
+		background-repeat: no-repeat;
+		text-align: center;
+	}
+
+	&__footer{
+		width: 100%;
+		text-align: center;
+		a{
+			color: #fff;
+			font-size: 16px;
+			font-weight: 300;
+			padding: 15px;
+			text-decoration: none;
+			display: block;
+
+		}
+	}
+	&__panel{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 30px 0;
+		border-top: 1px solid rgba(#fff,.3);
+		a{
+			margin:0 15px;
+		}
+	}
+}

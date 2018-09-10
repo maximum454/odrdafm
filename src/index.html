@@ -12,14 +12,32 @@
 <div class="wrp">
     //= template/header.html
     <main class="main">
-        <div class="main__header">
-            <h1></h1>
-        </div>
-        <div class="main__inner">
+        <div class="general">
+            <div class="general__header">
+                <button class="general__btn air" href="#">Позвонить<br>в эфир</button>
+                <button class="general__btn confetti" href="#">Отправить<br>поздравление</button>
+            </div>
 
+            <div class="general__main">
+                <input type="text" value="58" class="dial" data-width="140"
+                       data-thickness=".07"
+                       data-fgColor="#fff"
+                       data-bgColor="#000"
+                       data-angleOffset="180">
+            </div>
+
+            <div class="general__footer">
+                <a class="" href="http://www.orda.fm/" target="_blank">www.orda.fm</a>
+                <div class="general__panel">
+                    <a class="general__stop" href="#"><img src="img/stop.svg" alt=""></a>
+                    <a class="general__play" href="#"><img src="img/play.svg" alt=""></a>
+                    <a class="general__pause" href="#"><img src="img/pause.svg" alt=""></a>
+                </div>
+            </div>
         </div>
     </main>
 </div>
+
 <script src="js/orda.js"></script>
 </body>
 </html>
