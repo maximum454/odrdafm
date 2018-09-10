@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <title>Orda</title>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!-- Twitter Card data -->
+    <meta name="twitter:site" content="">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+    
+    <!-- Open Graph data -->
+    <meta property="og:title" content="">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="">
+    <meta property="og:site_name" content="">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/orda.css">
+</head>
+<body>
+<div class="menu">
+    <div class="menu__header">
+        <div class="menu__logo">
+            <img src="img/logo.png" alt="меню">
+        </div>
+        <button type="button" class="menu__close js-close">
+            <img src="img/close.svg" alt="">
+        </button>
+    </div>
+    <nav class="menu__nav">
+        <a class="menu__item" href="/"><span><img src="img/radio.svg" alt=""> Радио</span></a>
+        <a class="menu__item" href="about.html"><span><img src="img/aboutUs.svg" alt=""> О нас</span></a>
+        <a class="menu__item" href="issues.html"><span><img src="img/issues.svg" alt=""> Вопросы</span></a>
+        <a class="menu__item" href="regulations.html"><span><img src="img/regulations.svg" alt=""> Правила</span></a>
+        <a class="menu__item" href="contacts.html"><span><img src="img/contacts.svg" alt=""> Контакты</span></a>
+    </nav>
+</div>
+<div class="wrp">
+    <header class="header">
+        <div class="header__inner">
+            <button type="button" class="header__menu js-menu">
+                <img src="img/menu.svg" alt="меню">
+            </button>
+            <a class="header__logo" href="/">
+                <img src="img/logo.png" alt="меню">
+            </a>
+            <ul class="header__lang">
+                <li><a href="#">RU</a></li>
+                <li><a href="#">EN</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__header">
+            <img src="img/contacts.jpg" alt="">
+            <h1 class="main__h1">Контакты</h1>
+        </div>
+        <div class="main__inner">
+            <h2 class="main__h2">Редакция ORDA FM </h2>
+            <p>г.&nbsp;Астана, ул.&nbsp;Желтоксан, 49<br />
+                Тел.: <a href="+77172393639">+7 (7172) 39 36 39</a></p>
+            <h2 class="main__h2">Редакция ORDA FM </h2>
+            <p><nobr>ТОО &laquo;ASTANA MEDIA CENTRE GROUP&raquo;</nobr><br />
+                г.&nbsp;Астана, ул.&nbsp;Жансугурова 8/1, оф. 102<br />
+                <nobr>Бизнес-центр</nobr> &laquo;Аружан&raquo;<br />
+                Тел.: <a href="+77172393639">+7 (7172) 39 36 39</a></p>
+                <nobr>е-mail</nobr>: <a href="mailto:vbatyuta_74@mail.ru">vbatyuta_74@mail.ru</a></p>
+            <form id="feedback" class="feedback" action="">
+                <h3 class="feedback__header">Есть вопросы?</h3>
+                <div class="feedback__item">
+                    <label class="feedback__label" for="name">Ваше имя:</label>
+                    <input class="feedback__input" id="name" type="text" placeholder="Например: Александр" required>
+                </div>
+                <div class="feedback__item">
+                    <label class="feedback__label" for="phone">Телефон<sup>*</sup></label>
+                    <input class="feedback__input" id="phone" type="text" placeholder="+7 XXХX XX XX XX" required>
+                </div>
+                <div class="feedback__item">
+                    <label class="feedback__label" for="email">E-mail</label>
+                    <textarea class="feedback__textarea" name="" id="" cols="30" rows="10" placeholder="Текст сообщения"></textarea>
+                </div>
+                <input class="feedback__btn" type="submit">
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+            <p>Включить Orda.fm player</p>
+            <button class="footer__btn" type="button"><img src="img/play.svg" alt="играть"></button>
+    </footer>
+</div>
+
+<script src="js/orda.js"></script>
+</body>
+</html>
