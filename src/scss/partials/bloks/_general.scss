@@ -1,7 +1,6 @@
 .general{
 	width: 100%;
-	height: calc(100vh - 67px);
-
+	height:100vh;
 	background: #6b1a3e;
 	display: flex;
 	flex-direction: column;
@@ -14,7 +13,7 @@
 	&__header{
 		width: 100%;
 		display: flex;
-		justify-content: space-between;
+		justify-content:center;
 		flex-shrink: 0;
 		padding: 15px;
 		margin-bottom: 15px;
@@ -22,6 +21,7 @@
 	&__btn{
 		display: block;
 		width: 100%;
+		max-width: 320px;
 		height: 50px;
 		margin-right: 6px;
 		border: none;

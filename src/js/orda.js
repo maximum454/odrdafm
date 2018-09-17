@@ -12,12 +12,11 @@ $(function () {
 
 function menu() {
     var menuWidth = $('.menu').innerWidth();
-    console.log(menuWidth);
     $('.js-menu').on('click', function () {
-        $('.menu,.wrp').toggleClass('menu-active');
+        $('.menu,.wrp__inner').toggleClass('menu-active');
     });
     $('.js-close').on('click', function () {
-        $('.menu,.wrp').removeClass('menu-active');
+        $('.menu,.wrp__inner').removeClass('menu-active');
     });
 }
 

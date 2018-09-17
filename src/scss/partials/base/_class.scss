@@ -11,9 +11,15 @@ html, body{
 }
 
 .wrp{
-	position: relative;
-	left: 0;
-	&.menu-active{
-		left: 320px;
+	overflow: hidden;
+	&__inner{
+		position: relative;
+		left: 0;
+		padding-top: 67px;
+		transition: all 0.5s ease-in-out;
+		&.menu-active{
+			transform: translate(230px,0);
+		}
+		
 	}
 }

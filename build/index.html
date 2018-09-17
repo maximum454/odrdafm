@@ -27,65 +27,66 @@
     <link rel="stylesheet" href="css/orda.css">
 </head>
 <body>
-<div class="menu">
-    <div class="menu__header">
-        <div class="menu__logo">
-            <img src="img/logo.png" alt="меню">
-        </div>
-        <button type="button" class="menu__close js-close">
-            <img src="img/close.svg" alt="">
-        </button>
-    </div>
-    <nav class="menu__nav">
-        <a class="menu__item" href="/"><span><img src="img/radio.svg" alt=""> Радио</span></a>
-        <a class="menu__item" href="about.html"><span><img src="img/aboutUs.svg" alt=""> О нас</span></a>
-        <a class="menu__item" href="issues.html"><span><img src="img/issues.svg" alt=""> Вопросы</span></a>
-        <a class="menu__item" href="regulations.html"><span><img src="img/regulations.svg" alt=""> Правила</span></a>
-        <a class="menu__item" href="contacts.html"><span><img src="img/contacts.svg" alt=""> Контакты</span></a>
-    </nav>
-</div>
 <div class="wrp">
-    <header class="header">
-        <div class="header__inner">
-            <button type="button" class="header__menu js-menu">
-                <img src="img/menu.svg" alt="меню">
-            </button>
-            <a class="header__logo" href="/">
+    <div class="menu">
+        <div class="menu__header">
+            <div class="menu__logo">
                 <img src="img/logo.png" alt="меню">
-            </a>
-            <ul class="header__lang">
-                <li><a href="#">RU</a></li>
-                <li><a href="#">EN</a></li>
-            </ul>
+            </div>
+            <button type="button" class="menu__close js-close">
+                <img src="img/close.svg" alt="">
+            </button>
         </div>
-    </header>
-    <main class="main">
-        <div class="general">
-            <div class="general__header">
-                <button class="general__btn air" href="#">Позвонить<br>в эфир</button>
-                <button class="general__btn confetti" href="#">Отправить<br>поздравление</button>
+        <nav class="menu__nav">
+            <a class="menu__item" href="/"><span><img src="img/radio.svg" alt=""> Радио</span></a>
+            <a class="menu__item" href="about.html"><span><img src="img/aboutUs.svg" alt=""> О нас</span></a>
+            <a class="menu__item" href="issues.html"><span><img src="img/issues.svg" alt=""> Вопросы</span></a>
+            <a class="menu__item" href="regulations.html"><span><img src="img/regulations.svg" alt=""> Правила</span></a>
+            <a class="menu__item" href="contacts.html"><span><img src="img/contacts.svg" alt=""> Контакты</span></a>
+        </nav>
+    </div>
+    <div class="wrp__inner">
+        <header class="header">
+            <div class="header__inner">
+                <button type="button" class="header__menu js-menu">
+                    <img src="img/menu.svg" alt="меню">
+                </button>
+                <a class="header__logo" href="/">
+                    <img src="img/logo.png" alt="меню">
+                </a>
+                <ul class="header__lang">
+                    <li><a href="#">RU</a></li>
+                    <li><a href="#">EN</a></li>
+                </ul>
             </div>
+        </header>
+        <main class="main">
+            <div class="general">
+                <div class="general__header">
+                    <button class="general__btn air" href="#">Позвонить<br>в эфир</button>
+                    <button class="general__btn confetti" href="#">Отправить<br>поздравление</button>
+                </div>
 
-            <div class="general__main">
-                <input type="text" value="58" class="dial" data-width="140"
-                       data-thickness=".07"
-                       data-fgColor="#fff"
-                       data-bgColor="#000"
-                       data-angleOffset="180">
-            </div>
+                <div class="general__main">
+                    <input type="text" value="58" class="dial" data-width="140"
+                           data-thickness=".07"
+                           data-fgColor="#fff"
+                           data-bgColor="#ссс"
+                           data-angleOffset="180">
+                </div>
 
-            <div class="general__footer">
-                <a class="" href="http://www.orda.fm/" target="_blank">www.orda.fm</a>
-                <div class="general__panel">
-                    <a class="general__stop" href="#"><img src="img/stop.svg" alt=""></a>
-                    <a class="general__play" href="#"><img src="img/play.svg" alt=""></a>
-                    <a class="general__pause" href="#"><img src="img/pause.svg" alt=""></a>
+                <div class="general__footer">
+                    <a class="" href="http://www.orda.fm/" target="_blank">www.orda.fm</a>
+                    <div class="general__panel">
+                        <a class="general__stop" href="#"><img src="img/stop.svg" alt=""></a>
+                        <a class="general__play" href="#"><img src="img/play.svg" alt=""></a>
+                        <a class="general__pause" href="#"><img src="img/pause.svg" alt=""></a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </main>
+        </main>
+    </div>
 </div>
-
 <script src="js/orda.js"></script>
 </body>
 </html>
